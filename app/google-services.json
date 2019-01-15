@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "49102023135",
+    "firebase_url": "https://socializing-7b912.firebaseio.com",
+    "project_id": "socializing-7b912",
+    "storage_bucket": "socializing-7b912.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49102023135:android:542e0a4798e3adfb",
+        "android_client_info": {
+          "package_name": "com.epiphany.aditkotwal.socializing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49102023135-ni2f6k3ei7ob2acfc4mpv77rqt3qebpa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.epiphany.aditkotwal.socializing",
+            "certificate_hash": "638449858b5a29ba38f1bf6bb4f89ca9d96a7d48"
+          }
+        },
+        {
+          "client_id": "49102023135-0p0p66lqs01nb5ut3r68ebmhpqmtuhns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRW0sT3eLAPAo0hvNCflJwwNdBodqqt5k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49102023135-0p0p66lqs01nb5ut3r68ebmhpqmtuhns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

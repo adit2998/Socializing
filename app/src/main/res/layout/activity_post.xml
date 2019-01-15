@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostActivity"
+    android:background="@drawable/pages_background">
+
+    <include
+        android:id="@+id/update_post_page"
+        layout="@layout/app_bar_layout"></include>
+
+    <ImageButton
+        android:id="@+id/post_imageButton"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerInside"
+        android:layout_marginTop="79dp"
+        app:srcCompat="@drawable/addpost" />
+
+    <EditText
+        android:id="@+id/say_something_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="162dp"
+        android:ems="10"
+        android:hint="Say something..."
+        android:padding="10dp"
+        android:inputType="textMultiLine"
+        android:background="@drawable/inputs"/>
+
+    <Button
+        android:id="@+id/update_post_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="72dp"
+        android:text="Update Post"
+        android:padding="12dp"
+        android:background="@drawable/button"/>
+</RelativeLayout>
